@@ -9,10 +9,7 @@ const listEndpoints=require('express-list-endpoints');
 const app = express();
 
 const allowedOrigins=[
-    'http://localhost:3000',
-    'http://localhost:3001',
-    'http://localhost:3002',
-    'http://localhost:3008',
+   
 ];
 
 app.use(express.json());
