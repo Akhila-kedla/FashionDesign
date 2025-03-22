@@ -1,0 +1,23 @@
+{
+    "version":2,
+    "name":"Fashion Design website",
+    "builds":[
+        {
+        "src":"index.js",
+        "use":"@vercel/node"
+        }
+    ],
+
+    "routes":[
+{
+    "src":"/api/(.*)",
+    "dest":"/index.js"
+
+},
+{
+   
+    "src":"/(.*)",
+    "dest":"/index.js" 
+}
+]
+}
